@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C68DACB42D1FEAD7001AAEDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68DACAA2D1FEAD7001AAEDB /* AppDelegate.swift */; };
+		C68DACB52D1FEAD7001AAEDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68DACB12D1FEAD7001AAEDB /* SceneDelegate.swift */; };
+		C68DACB62D1FEAD7001AAEDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68DACB22D1FEAD7001AAEDB /* ViewController.swift */; };
+		C68DACB72D1FEAD7001AAEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68DACAB2D1FEAD7001AAEDB /* Assets.xcassets */; };
+		C68DACB92D1FEAD7001AAEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68DACAE2D1FEAD7001AAEDB /* LaunchScreen.storyboard */; };
+		C68DACBA2D1FEAD7001AAEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68DACB02D1FEAD7001AAEDB /* Main.storyboard */; };
+		C68DACBC2D1FEAE2001AAEDB /* MertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68DACBB2D1FEAE2001AAEDB /* MertController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		448CDFAE2D18282E0045E32B /* YZL-3402.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YZL-3402.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68DACAA2D1FEAD7001AAEDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C68DACAB2D1FEAD7001AAEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68DACAC2D1FEAD7001AAEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68DACAD2D1FEAD7001AAEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C68DACAF2D1FEAD7001AAEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68DACB12D1FEAD7001AAEDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C68DACB22D1FEAD7001AAEDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C68DACBB2D1FEAE2001AAEDB /* MertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		448CDFC02D18282F0045E32B /* Exceptions for "YZL-3402" folder in "YZL-3402" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 448CDFAD2D18282E0045E32B /* YZL-3402 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		448CDFB02D18282E0045E32B /* YZL-3402 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				448CDFC02D18282F0045E32B /* Exceptions for "YZL-3402" folder in "YZL-3402" target */,
-			);
-			path = "YZL-3402";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		448CDFAB2D18282E0045E32B /* Frameworks */ = {
@@ -45,7 +42,7 @@
 		448CDFA52D18282E0045E32B = {
 			isa = PBXGroup;
 			children = (
-				448CDFB02D18282E0045E32B /* YZL-3402 */,
+				C68DACB32D1FEAD7001AAEDB /* YZL-3402 */,
 				448CDFAF2D18282E0045E32B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,21 @@
 				448CDFAE2D18282E0045E32B /* YZL-3402.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C68DACB32D1FEAD7001AAEDB /* YZL-3402 */ = {
+			isa = PBXGroup;
+			children = (
+				C68DACAA2D1FEAD7001AAEDB /* AppDelegate.swift */,
+				C68DACAB2D1FEAD7001AAEDB /* Assets.xcassets */,
+				C68DACAC2D1FEAD7001AAEDB /* Info.plist */,
+				C68DACAE2D1FEAD7001AAEDB /* LaunchScreen.storyboard */,
+				C68DACB02D1FEAD7001AAEDB /* Main.storyboard */,
+				C68DACB12D1FEAD7001AAEDB /* SceneDelegate.swift */,
+				C68DACB22D1FEAD7001AAEDB /* ViewController.swift */,
+				C68DACBB2D1FEAE2001AAEDB /* MertController.swift */,
+			);
+			path = "YZL-3402";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				448CDFB02D18282E0045E32B /* YZL-3402 */,
 			);
 			name = "YZL-3402";
 			packageProductDependencies = (
@@ -122,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68DACB72D1FEAD7001AAEDB /* Assets.xcassets in Resources */,
+				C68DACB92D1FEAD7001AAEDB /* LaunchScreen.storyboard in Resources */,
+				C68DACBA2D1FEAD7001AAEDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +144,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68DACB42D1FEAD7001AAEDB /* AppDelegate.swift in Sources */,
+				C68DACB52D1FEAD7001AAEDB /* SceneDelegate.swift in Sources */,
+				C68DACB62D1FEAD7001AAEDB /* ViewController.swift in Sources */,
+				C68DACBC2D1FEAE2001AAEDB /* MertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C68DACAE2D1FEAD7001AAEDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68DACAD2D1FEAD7001AAEDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C68DACB02D1FEAD7001AAEDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68DACAF2D1FEAD7001AAEDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		448CDFC22D18282F0045E32B /* Debug */ = {
