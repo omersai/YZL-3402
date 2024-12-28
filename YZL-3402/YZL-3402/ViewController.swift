@@ -20,5 +20,8 @@ class ViewController: UIViewController {
     func password(){
         print("Login")
     }
+    func omercan(){
+        print("Login")
+    }
 }
 
