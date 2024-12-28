@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     func login(){
         print("Login")
     }
-
+    func password(){
+        print("Login")
+    }
 }
 
