@@ -22,5 +22,8 @@ class ViewController: UIViewController {
         print("Register")
     }
 
+    func password(){
+        print("Login")
+    }
 }
 
