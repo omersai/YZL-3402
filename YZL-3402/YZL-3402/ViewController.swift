@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     func login(){
         print("Login")
     }
+    
+    func register(){
+        print("Register")
+    }
 
 }
 
